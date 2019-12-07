@@ -1,0 +1,615 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.3</creator>
+      <lastmodified>07/12/2019</lastmodified>
+    </meta>
+    <nodes>
+      <node id="[100]Voltorb" label="[100]Voltorb" />
+      <node id="[101]Electrode" label="[101]Electrode" />
+      <node id="[102]Exeggcute" label="[102]Exeggcute" />
+      <node id="[104]Cubone" label="[104]Cubone" />
+      <node id="[105]Marowak" label="[105]Marowak" />
+      <node id="[106]Hitmonlee" label="[106]Hitmonlee" />
+      <node id="[107]Hitmonchan" label="[107]Hitmonchan" />
+      <node id="[108]Lickitung" label="[108]Lickitung" />
+      <node id="[10]Caterpie" label="[10]Caterpie" />
+      <node id="[111]Rhyhorn" label="[111]Rhyhorn" />
+      <node id="[112]Rhydon" label="[112]Rhydon" />
+      <node id="[113]Chansey" label="[113]Chansey" />
+      <node id="[114]Tangela" label="[114]Tangela" />
+      <node id="[115]Kangaskhan" label="[115]Kangaskhan" />
+      <node id="[116]Horsea" label="[116]Horsea" />
+      <node id="[117]Seadra" label="[117]Seadra" />
+      <node id="[118]Goldeen" label="[118]Goldeen" />
+      <node id="[119]Seaking" label="[119]Seaking" />
+      <node id="[11]Metapod" label="[11]Metapod" />
+      <node id="[120]Staryu" label="[120]Staryu" />
+      <node id="[122]Mr. Mime" label="[122]Mr. Mime" />
+      <node id="[123]Scyther" label="[123]Scyther" />
+      <node id="[127]Pinsir" label="[127]Pinsir" />
+      <node id="[128]Tauros" label="[128]Tauros" />
+      <node id="[129]Magikarp" label="[129]Magikarp" />
+      <node id="[130]Gyarados" label="[130]Gyarados" />
+      <node id="[131]Lapras" label="[131]Lapras" />
+      <node id="[132]Ditto" label="[132]Ditto" />
+      <node id="[133]Eevee" label="[133]Eevee" />
+      <node id="[137]Porygon" label="[137]Porygon" />
+      <node id="[138]Omanyte" label="[138]Omanyte" />
+      <node id="[140]Kabuto" label="[140]Kabuto" />
+      <node id="[142]Aerodactyl" label="[142]Aerodactyl" />
+      <node id="[143]Snorlax" label="[143]Snorlax" />
+      <node id="[144]Articuno" label="[144]Articuno" />
+      <node id="[145]Zapdos" label="[145]Zapdos" />
+      <node id="[146]Moltres" label="[146]Moltres" />
+      <node id="[147]Dratini" label="[147]Dratini" />
+      <node id="[148]Dragonair" label="[148]Dragonair" />
+      <node id="[150]Mewtwo" label="[150]Mewtwo" />
+      <node id="[16]Pidgey" label="[16]Pidgey" />
+      <node id="[17]Pidgeotto" label="[17]Pidgeotto" />
+      <node id="[19]Rattata" label="[19]Rattata" />
+      <node id="[1]Bulbasaur" label="[1]Bulbasaur" />
+      <node id="[20]Raticate" label="[20]Raticate" />
+      <node id="[21]Spearow" label="[21]Spearow" />
+      <node id="[22]Fearow" label="[22]Fearow" />
+      <node id="[25]Pikachu" label="[25]Pikachu" />
+      <node id="[27]Sandshrew" label="[27]Sandshrew" />
+      <node id="[28]Sandslash" label="[28]Sandslash" />
+      <node id="[29]Nidoran♀" label="[29]Nidoran♀" />
+      <node id="[30]Nidorina" label="[30]Nidorina" />
+      <node id="[32]Nidoran♂" label="[32]Nidoran♂" />
+      <node id="[33]Nidorino" label="[33]Nidorino" />
+      <node id="[35]Clefairy" label="[35]Clefairy" />
+      <node id="[37]Vulpix" label="[37]Vulpix" />
+      <node id="[39]Jigglypuff" label="[39]Jigglypuff" />
+      <node id="[40]Wigglytuff" label="[40]Wigglytuff" />
+      <node id="[41]Zubat" label="[41]Zubat" />
+      <node id="[42]Golbat" label="[42]Golbat" />
+      <node id="[43]Oddish" label="[43]Oddish" />
+      <node id="[44]Gloom" label="[44]Gloom" />
+      <node id="[46]Paras" label="[46]Paras" />
+      <node id="[47]Parasect" label="[47]Parasect" />
+      <node id="[48]Venonat" label="[48]Venonat" />
+      <node id="[49]Venomoth" label="[49]Venomoth" />
+      <node id="[4]Charmander" label="[4]Charmander" />
+      <node id="[50]Diglett" label="[50]Diglett" />
+      <node id="[51]Dugtrio" label="[51]Dugtrio" />
+      <node id="[54]Psyduck" label="[54]Psyduck" />
+      <node id="[55]Golduck" label="[55]Golduck" />
+      <node id="[56]Mankey" label="[56]Mankey" />
+      <node id="[57]Primeape" label="[57]Primeape" />
+      <node id="[58]Growlithe" label="[58]Growlithe" />
+      <node id="[60]Poliwag" label="[60]Poliwag" />
+      <node id="[61]Poliwhirl" label="[61]Poliwhirl" />
+      <node id="[63]Abra" label="[63]Abra" />
+      <node id="[64]Kadabra" label="[64]Kadabra" />
+      <node id="[66]Machop" label="[66]Machop" />
+      <node id="[67]Machoke" label="[67]Machoke" />
+      <node id="[68]Machamp" label="[68]Machamp" />
+      <node id="[69]Bellsprout" label="[69]Bellsprout" />
+      <node id="[70]Weepinbell" label="[70]Weepinbell" />
+      <node id="[72]Tentacool" label="[72]Tentacool" />
+      <node id="[73]Tentacruel" label="[73]Tentacruel" />
+      <node id="[74]Geodude" label="[74]Geodude" />
+      <node id="[75]Graveler" label="[75]Graveler" />
+      <node id="[77]Ponyta" label="[77]Ponyta" />
+      <node id="[79]Slowpoke" label="[79]Slowpoke" />
+      <node id="[7]Squirtle" label="[7]Squirtle" />
+      <node id="[80]Slowbro" label="[80]Slowbro" />
+      <node id="[81]Magnemite" label="[81]Magnemite" />
+      <node id="[82]Magneton" label="[82]Magneton" />
+      <node id="[83]Farfetch'd" label="[83]Farfetch'd" />
+      <node id="[84]Doduo" label="[84]Doduo" />
+      <node id="[85]Dodrio" label="[85]Dodrio" />
+      <node id="[86]Seel" label="[86]Seel" />
+      <node id="[87]Dewgong" label="[87]Dewgong" />
+      <node id="[88]Grimer" label="[88]Grimer" />
+      <node id="[89]Muk" label="[89]Muk" />
+      <node id="[90]Shellder" label="[90]Shellder" />
+      <node id="[92]Gastly" label="[92]Gastly" />
+      <node id="[93]Haunter" label="[93]Haunter" />
+      <node id="[95]Onix" label="[95]Onix" />
+      <node id="[96]Drowzee" label="[96]Drowzee" />
+      <node id="[98]Krabby" label="[98]Krabby" />
+      <node id="[99]Kingler" label="[99]Kingler" />
+      <node id="rt|22|Kanto" label="rt|22|Kanto" />
+      <node id="ka|Victory Road" label="ka|Victory Road" />
+      <node id="rt|9|Kanto" label="rt|9|Kanto" />
+      <node id="Melanie|a girl" label="Melanie|a girl" />
+      <node id="rt|10|Kanto" label="rt|10|Kanto" />
+      <node id="Officer Jenny" label="Officer Jenny" />
+      <node id="Vermilion City" label="Vermilion City" />
+      <node id="rt|17|Kanto" label="rt|17|Kanto" />
+      <node id="FB|Kanto|Power Plant" label="FB|Kanto|Power Plant" />
+      <node id="rt|1|Kanto" label="rt|1|Kanto" />
+      <node id="ka|Pokémon Mansion" label="ka|Pokémon Mansion" />
+      <node id="Cerulean Gym" label="Cerulean Gym" />
+      <node id="Magikarp salesman" label="Magikarp salesman" />
+      <node id="Helix Fossil" label="Helix Fossil" />
+      <node id="Fighting Dojo" label="Fighting Dojo" />
+      <node id="Saffron City" label="Saffron City" />
+      <node id="Rock Tunnel" label="Rock Tunnel" />
+      <node id="Badge|Thunder" label="Badge|Thunder" />
+      <node id="Pokémon Tower" label="Pokémon Tower" />
+      <node id="rt|11|Kanto" label="rt|11|Kanto" />
+      <node id="rt|21|Kanto" label="rt|21|Kanto" />
+      <node id="friendship" label="friendship" />
+      <node id="Damian|a Trainer" label="Damian|a Trainer" />
+      <node id="rt|18|Kanto" label="rt|18|Kanto" />
+      <node id="rt|2|Kanto" label="rt|2|Kanto" />
+      <node id="Old Amber" label="Old Amber" />
+      <node id="Seafoam Islands" label="Seafoam Islands" />
+      <node id="Viridian City" label="Viridian City" />
+      <node id="rt|12|Kanto" label="rt|12|Kanto" />
+      <node id="rt|7|Kanto" label="rt|7|Kanto" />
+      <node id="rt|14|Kanto" label="rt|14|Kanto" />
+      <node id="Old Rod" label="Old Rod" />
+      <node id="Super Rod" label="Super Rod" />
+      <node id="Mt. Moon" label="Mt. Moon" />
+      <node id="rt|23|Kanto" label="rt|23|Kanto" />
+      <node id="rt|13|Kanto" label="rt|13|Kanto" />
+      <node id="Celadon City" label="Celadon City" />
+      <node id="Underground Path (Kanto Routes 5-6)" label="Underground Path (Kanto Routes 5-6)" />
+      <node id="Silph Co." label="Silph Co." />
+      <node id="rt|16|Kanto" label="rt|16|Kanto" />
+      <node id="rt|20|Kanto" label="rt|20|Kanto" />
+      <node id="rt|24|Kanto" label="rt|24|Kanto" />
+      <node id="Indigo Plateau" label="Indigo Plateau" />
+      <node id="Diglett\\'s Cave" label="Diglett\\'s Cave" />
+      <node id="rt|25|Kanto" label="rt|25|Kanto" />
+      <node id="PDollar" label="PDollar" />
+      <node id="Cerulean City" label="Cerulean City" />
+      <node id="Cinnabar Island" label="Cinnabar Island" />
+      <node id="Pallet Town" label="Pallet Town" />
+      <node id="Celadon Condominiums|Celadon Mansion" label="Celadon Condominiums|Celadon Mansion" />
+      <node id="Starter Pokémon" label="Starter Pokémon" />
+      <node id="Celadon Game Corner|Rocket Game Corner" label="Celadon Game Corner|Rocket Game Corner" />
+      <node id="Special Event" label="Special Event" />
+      <node id="Viridian Forest" label="Viridian Forest" />
+      <node id="rt|6|Kanto" label="rt|6|Kanto" />
+      <node id="rt|5|Kanto" label="rt|5|Kanto" />
+      <node id="Fishing#In the games|Super Rod" label="Fishing#In the games|Super Rod" />
+      <node id="Fuchsia City" label="Fuchsia City" />
+      <node id="In-game trade#Yellow|Trade" label="In-game trade#Yellow|Trade" />
+      <node id="rt|19|Kanto" label="rt|19|Kanto" />
+      <node id="rt|15|Kanto" label="rt|15|Kanto" />
+      <node id="Surfing" label="Surfing" />
+      <node id="Professor Oak" label="Professor Oak" />
+      <node id="tt|*|immediately evolves into Machamp, but Pokédex data is entered" label="tt|*|immediately evolves into Machamp, but Pokédex data is entered" />
+      <node id="rt|3|Kanto" label="rt|3|Kanto" />
+      <node id="rt|4|Kanto" label="rt|4|Kanto" />
+      <node id="Good Rod" label="Good Rod" />
+      <node id="Trade" label="Trade" />
+      <node id="rt|8|Kanto" label="rt|8|Kanto" />
+      <node id="safari|Kanto" label="safari|Kanto" />
+      <node id="Cerulean Cave" label="Cerulean Cave" />
+      <node id="Dome Fossil" label="Dome Fossil" />
+      <node id="Cinnabar Lab|Pokémon Lab" label="Cinnabar Lab|Pokémon Lab" />
+    </nodes>
+    <edges>
+      <edge id="0" source="[100]Voltorb" target="FB|Kanto|Power Plant" />
+      <edge id="1" source="[101]Electrode" target="FB|Kanto|Power Plant" />
+      <edge id="2" source="[102]Exeggcute" target="safari|Kanto" />
+      <edge id="3" source="[104]Cubone" target="Pokémon Tower" />
+      <edge id="4" source="[104]Cubone" target="safari|Kanto" />
+      <edge id="5" source="[105]Marowak" target="safari|Kanto" />
+      <edge id="6" source="[106]Hitmonlee" target="Special Event" />
+      <edge id="7" source="[106]Hitmonlee" target="Fighting Dojo" />
+      <edge id="8" source="[106]Hitmonlee" target="Saffron City" />
+      <edge id="9" source="[107]Hitmonchan" target="Special Event" />
+      <edge id="10" source="[107]Hitmonchan" target="Fighting Dojo" />
+      <edge id="11" source="[107]Hitmonchan" target="Saffron City" />
+      <edge id="12" source="[108]Lickitung" target="Cerulean Cave" />
+      <edge id="13" source="[10]Caterpie" target="Viridian Forest" />
+      <edge id="14" source="[111]Rhyhorn" target="safari|Kanto" />
+      <edge id="15" source="[111]Rhyhorn" target="Cerulean Cave" />
+      <edge id="16" source="[112]Rhydon" target="Cerulean Cave" />
+      <edge id="17" source="[112]Rhydon" target="In-game trade#Yellow|Trade" />
+      <edge id="18" source="[112]Rhydon" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="19" source="[112]Rhydon" target="Cinnabar Island" />
+      <edge id="20" source="[113]Chansey" target="safari|Kanto" />
+      <edge id="21" source="[113]Chansey" target="Cerulean Cave" />
+      <edge id="22" source="[114]Tangela" target="safari|Kanto" />
+      <edge id="23" source="[115]Kangaskhan" target="safari|Kanto" />
+      <edge id="24" source="[116]Horsea" target="rt|11|Kanto" />
+      <edge id="25" source="[116]Horsea" target="rt|10|Kanto" />
+      <edge id="26" source="[116]Horsea" target="Vermilion City" />
+      <edge id="27" source="[116]Horsea" target="Fishing#In the games|Super Rod" />
+      <edge id="28" source="[116]Horsea" target="rt|12|Kanto" />
+      <edge id="29" source="[116]Horsea" target="rt|13|Kanto" />
+      <edge id="30" source="[117]Seadra" target="rt|12|Kanto" />
+      <edge id="31" source="[117]Seadra" target="Fishing#In the games|Super Rod" />
+      <edge id="32" source="[117]Seadra" target="rt|13|Kanto" />
+      <edge id="33" source="[118]Goldeen" target="rt|22|Kanto" />
+      <edge id="34" source="[118]Goldeen" target="rt|10|Kanto" />
+      <edge id="35" source="[118]Goldeen" target="Vermilion City" />
+      <edge id="36" source="[118]Goldeen" target="rt|17|Kanto" />
+      <edge id="37" source="[118]Goldeen" target="rt|11|Kanto" />
+      <edge id="38" source="[118]Goldeen" target="rt|21|Kanto" />
+      <edge id="39" source="[118]Goldeen" target="rt|18|Kanto" />
+      <edge id="40" source="[118]Goldeen" target="Seafoam Islands" />
+      <edge id="41" source="[118]Goldeen" target="Viridian City" />
+      <edge id="42" source="[118]Goldeen" target="rt|12|Kanto" />
+      <edge id="43" source="[118]Goldeen" target="Super Rod" />
+      <edge id="44" source="[118]Goldeen" target="rt|23|Kanto" />
+      <edge id="45" source="[118]Goldeen" target="rt|13|Kanto" />
+      <edge id="46" source="[118]Goldeen" target="Celadon City" />
+      <edge id="47" source="[118]Goldeen" target="rt|20|Kanto" />
+      <edge id="48" source="[118]Goldeen" target="rt|24|Kanto" />
+      <edge id="49" source="[118]Goldeen" target="Indigo Plateau" />
+      <edge id="50" source="[118]Goldeen" target="rt|25|Kanto" />
+      <edge id="51" source="[118]Goldeen" target="Cerulean City" />
+      <edge id="52" source="[118]Goldeen" target="Cinnabar Island" />
+      <edge id="53" source="[118]Goldeen" target="Pallet Town" />
+      <edge id="54" source="[118]Goldeen" target="rt|6|Kanto" />
+      <edge id="55" source="[118]Goldeen" target="Fuchsia City" />
+      <edge id="56" source="[118]Goldeen" target="rt|19|Kanto" />
+      <edge id="57" source="[118]Goldeen" target="Good Rod" />
+      <edge id="58" source="[118]Goldeen" target="safari|Kanto" />
+      <edge id="59" source="[118]Goldeen" target="Cerulean Cave" />
+      <edge id="60" source="[119]Seaking" target="Super Rod" />
+      <edge id="61" source="[119]Seaking" target="Cerulean Cave" />
+      <edge id="62" source="[119]Seaking" target="rt|24|Kanto" />
+      <edge id="63" source="[119]Seaking" target="Cerulean City" />
+      <edge id="64" source="[11]Metapod" target="Viridian Forest" />
+      <edge id="65" source="[120]Staryu" target="rt|21|Kanto" />
+      <edge id="66" source="[120]Staryu" target="Vermilion City" />
+      <edge id="67" source="[120]Staryu" target="rt|20|Kanto" />
+      <edge id="68" source="[120]Staryu" target="Seafoam Islands" />
+      <edge id="69" source="[120]Staryu" target="rt|19|Kanto" />
+      <edge id="70" source="[120]Staryu" target="Surfing" />
+      <edge id="71" source="[120]Staryu" target="Cinnabar Island" />
+      <edge id="72" source="[120]Staryu" target="Pallet Town" />
+      <edge id="73" source="[120]Staryu" target="Super Rod" />
+      <edge id="74" source="[122]Mr. Mime" target="Trade" />
+      <edge id="75" source="[122]Mr. Mime" target="rt|2|Kanto" />
+      <edge id="76" source="[123]Scyther" target="safari|Kanto" />
+      <edge id="77" source="[123]Scyther" target="Celadon City" />
+      <edge id="78" source="[123]Scyther" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="79" source="[127]Pinsir" target="safari|Kanto" />
+      <edge id="80" source="[127]Pinsir" target="Celadon City" />
+      <edge id="81" source="[127]Pinsir" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="82" source="[128]Tauros" target="safari|Kanto" />
+      <edge id="83" source="[129]Magikarp" target="rt|22|Kanto" />
+      <edge id="84" source="[129]Magikarp" target="rt|10|Kanto" />
+      <edge id="85" source="[129]Magikarp" target="Vermilion City" />
+      <edge id="86" source="[129]Magikarp" target="rt|17|Kanto" />
+      <edge id="87" source="[129]Magikarp" target="Magikarp salesman" />
+      <edge id="88" source="[129]Magikarp" target="rt|11|Kanto" />
+      <edge id="89" source="[129]Magikarp" target="rt|21|Kanto" />
+      <edge id="90" source="[129]Magikarp" target="rt|18|Kanto" />
+      <edge id="91" source="[129]Magikarp" target="Seafoam Islands" />
+      <edge id="92" source="[129]Magikarp" target="Viridian City" />
+      <edge id="93" source="[129]Magikarp" target="rt|12|Kanto" />
+      <edge id="94" source="[129]Magikarp" target="Old Rod" />
+      <edge id="95" source="[129]Magikarp" target="Super Rod" />
+      <edge id="96" source="[129]Magikarp" target="rt|23|Kanto" />
+      <edge id="97" source="[129]Magikarp" target="rt|13|Kanto" />
+      <edge id="98" source="[129]Magikarp" target="Celadon City" />
+      <edge id="99" source="[129]Magikarp" target="rt|20|Kanto" />
+      <edge id="100" source="[129]Magikarp" target="rt|24|Kanto" />
+      <edge id="101" source="[129]Magikarp" target="Indigo Plateau" />
+      <edge id="102" source="[129]Magikarp" target="rt|25|Kanto" />
+      <edge id="103" source="[129]Magikarp" target="Cerulean City" />
+      <edge id="104" source="[129]Magikarp" target="Cinnabar Island" />
+      <edge id="105" source="[129]Magikarp" target="Pallet Town" />
+      <edge id="106" source="[129]Magikarp" target="Special Event" />
+      <edge id="107" source="[129]Magikarp" target="rt|6|Kanto" />
+      <edge id="108" source="[129]Magikarp" target="Fuchsia City" />
+      <edge id="109" source="[129]Magikarp" target="rt|19|Kanto" />
+      <edge id="110" source="[129]Magikarp" target="rt|4|Kanto" />
+      <edge id="111" source="[129]Magikarp" target="PDollar" />
+      <edge id="112" source="[129]Magikarp" target="safari|Kanto" />
+      <edge id="113" source="[129]Magikarp" target="Cerulean Cave" />
+      <edge id="114" source="[130]Gyarados" target="Super Rod" />
+      <edge id="115" source="[130]Gyarados" target="Fuchsia City" />
+      <edge id="116" source="[131]Lapras" target="Silph Co." />
+      <edge id="117" source="[131]Lapras" target="Special Event" />
+      <edge id="118" source="[131]Lapras" target="Saffron City" />
+      <edge id="119" source="[132]Ditto" target="ka|Pokémon Mansion" />
+      <edge id="120" source="[132]Ditto" target="Cerulean Cave" />
+      <edge id="121" source="[133]Eevee" target="Special Event" />
+      <edge id="122" source="[133]Eevee" target="Celadon Condominiums|Celadon Mansion" />
+      <edge id="123" source="[137]Porygon" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="124" source="[138]Omanyte" target="Cinnabar Island" />
+      <edge id="125" source="[138]Omanyte" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="126" source="[138]Omanyte" target="Helix Fossil" />
+      <edge id="127" source="[140]Kabuto" target="Dome Fossil" />
+      <edge id="128" source="[140]Kabuto" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="129" source="[140]Kabuto" target="Cinnabar Island" />
+      <edge id="130" source="[142]Aerodactyl" target="Old Amber" />
+      <edge id="131" source="[142]Aerodactyl" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="132" source="[142]Aerodactyl" target="Cinnabar Island" />
+      <edge id="133" source="[143]Snorlax" target="rt|12|Kanto" />
+      <edge id="134" source="[143]Snorlax" target="Special Event" />
+      <edge id="135" source="[143]Snorlax" target="rt|16|Kanto" />
+      <edge id="136" source="[144]Articuno" target="Special Event" />
+      <edge id="137" source="[144]Articuno" target="Seafoam Islands" />
+      <edge id="138" source="[145]Zapdos" target="FB|Kanto|Power Plant" />
+      <edge id="139" source="[145]Zapdos" target="Special Event" />
+      <edge id="140" source="[146]Moltres" target="ka|Victory Road" />
+      <edge id="141" source="[146]Moltres" target="Special Event" />
+      <edge id="142" source="[147]Dratini" target="safari|Kanto" />
+      <edge id="143" source="[147]Dratini" target="Super Rod" />
+      <edge id="144" source="[148]Dragonair" target="safari|Kanto" />
+      <edge id="145" source="[148]Dragonair" target="Super Rod" />
+      <edge id="146" source="[150]Mewtwo" target="Special Event" />
+      <edge id="147" source="[150]Mewtwo" target="Cerulean Cave" />
+      <edge id="148" source="[16]Pidgey" target="rt|11|Kanto" />
+      <edge id="149" source="[16]Pidgey" target="rt|21|Kanto" />
+      <edge id="150" source="[16]Pidgey" target="Viridian Forest" />
+      <edge id="151" source="[16]Pidgey" target="rt|6|Kanto" />
+      <edge id="152" source="[16]Pidgey" target="rt|2|Kanto" />
+      <edge id="153" source="[16]Pidgey" target="rt|5|Kanto" />
+      <edge id="154" source="[16]Pidgey" target="rt|24|Kanto" />
+      <edge id="155" source="[16]Pidgey" target="rt|1|Kanto" />
+      <edge id="156" source="[16]Pidgey" target="rt|12|Kanto" />
+      <edge id="157" source="[16]Pidgey" target="rt|7|Kanto" />
+      <edge id="158" source="[16]Pidgey" target="rt|25|Kanto" />
+      <edge id="159" source="[16]Pidgey" target="rt|8|Kanto" />
+      <edge id="160" source="[16]Pidgey" target="rt|13|Kanto" />
+      <edge id="161" source="[17]Pidgeotto" target="rt|11|Kanto" />
+      <edge id="162" source="[17]Pidgeotto" target="rt|21|Kanto" />
+      <edge id="163" source="[17]Pidgeotto" target="Viridian Forest" />
+      <edge id="164" source="[17]Pidgeotto" target="rt|6|Kanto" />
+      <edge id="165" source="[17]Pidgeotto" target="rt|5|Kanto" />
+      <edge id="166" source="[17]Pidgeotto" target="rt|24|Kanto" />
+      <edge id="167" source="[17]Pidgeotto" target="rt|15|Kanto" />
+      <edge id="168" source="[17]Pidgeotto" target="rt|12|Kanto" />
+      <edge id="169" source="[17]Pidgeotto" target="rt|25|Kanto" />
+      <edge id="170" source="[17]Pidgeotto" target="rt|7|Kanto" />
+      <edge id="171" source="[17]Pidgeotto" target="rt|14|Kanto" />
+      <edge id="172" source="[17]Pidgeotto" target="rt|8|Kanto" />
+      <edge id="173" source="[17]Pidgeotto" target="rt|13|Kanto" />
+      <edge id="174" source="[19]Rattata" target="rt|22|Kanto" />
+      <edge id="175" source="[19]Rattata" target="rt|11|Kanto" />
+      <edge id="176" source="[19]Rattata" target="rt|9|Kanto" />
+      <edge id="177" source="[19]Rattata" target="rt|21|Kanto" />
+      <edge id="178" source="[19]Rattata" target="rt|10|Kanto" />
+      <edge id="179" source="[19]Rattata" target="rt|2|Kanto" />
+      <edge id="180" source="[19]Rattata" target="rt|6|Kanto" />
+      <edge id="181" source="[19]Rattata" target="rt|5|Kanto" />
+      <edge id="182" source="[19]Rattata" target="rt|18|Kanto" />
+      <edge id="183" source="[19]Rattata" target="rt|1|Kanto" />
+      <edge id="184" source="[19]Rattata" target="ka|Pokémon Mansion" />
+      <edge id="185" source="[19]Rattata" target="rt|3|Kanto" />
+      <edge id="186" source="[19]Rattata" target="rt|4|Kanto" />
+      <edge id="187" source="[19]Rattata" target="rt|7|Kanto" />
+      <edge id="188" source="[19]Rattata" target="rt|16|Kanto" />
+      <edge id="189" source="[19]Rattata" target="rt|8|Kanto" />
+      <edge id="190" source="[1]Bulbasaur" target="Special Event" />
+      <edge id="191" source="[1]Bulbasaur" target="Melanie|a girl" />
+      <edge id="192" source="[1]Bulbasaur" target="friendship" />
+      <edge id="193" source="[1]Bulbasaur" target="Cerulean City" />
+      <edge id="194" source="[20]Raticate" target="rt|11|Kanto" />
+      <edge id="195" source="[20]Raticate" target="rt|9|Kanto" />
+      <edge id="196" source="[20]Raticate" target="rt|21|Kanto" />
+      <edge id="197" source="[20]Raticate" target="rt|10|Kanto" />
+      <edge id="198" source="[20]Raticate" target="rt|18|Kanto" />
+      <edge id="199" source="[20]Raticate" target="ka|Pokémon Mansion" />
+      <edge id="200" source="[20]Raticate" target="rt|16|Kanto" />
+      <edge id="201" source="[21]Spearow" target="rt|22|Kanto" />
+      <edge id="202" source="[21]Spearow" target="rt|9|Kanto" />
+      <edge id="203" source="[21]Spearow" target="rt|18|Kanto" />
+      <edge id="204" source="[21]Spearow" target="rt|3|Kanto" />
+      <edge id="205" source="[21]Spearow" target="rt|4|Kanto" />
+      <edge id="206" source="[21]Spearow" target="rt|16|Kanto" />
+      <edge id="207" source="[22]Fearow" target="rt|9|Kanto" />
+      <edge id="208" source="[22]Fearow" target="rt|18|Kanto" />
+      <edge id="209" source="[22]Fearow" target="rt|17|Kanto" />
+      <edge id="210" source="[22]Fearow" target="rt|16|Kanto" />
+      <edge id="211" source="[22]Fearow" target="rt|23|Kanto" />
+      <edge id="212" source="[25]Pikachu" target="Pallet Town" />
+      <edge id="213" source="[25]Pikachu" target="Professor Oak" />
+      <edge id="214" source="[25]Pikachu" target="Starter Pokémon" />
+      <edge id="215" source="[27]Sandshrew" target="rt|3|Kanto" />
+      <edge id="216" source="[27]Sandshrew" target="rt|4|Kanto" />
+      <edge id="217" source="[27]Sandshrew" target="Mt. Moon" />
+      <edge id="218" source="[28]Sandslash" target="Cerulean Cave" />
+      <edge id="219" source="[29]Nidoran♀" target="rt|22|Kanto" />
+      <edge id="220" source="[29]Nidoran♀" target="rt|9|Kanto" />
+      <edge id="221" source="[29]Nidoran♀" target="rt|10|Kanto" />
+      <edge id="222" source="[29]Nidoran♀" target="rt|2|Kanto" />
+      <edge id="223" source="[29]Nidoran♀" target="safari|Kanto" />
+      <edge id="224" source="[30]Nidorina" target="rt|9|Kanto" />
+      <edge id="225" source="[30]Nidorina" target="safari|Kanto" />
+      <edge id="226" source="[30]Nidorina" target="rt|23|Kanto" />
+      <edge id="227" source="[32]Nidoran♂" target="rt|22|Kanto" />
+      <edge id="228" source="[32]Nidoran♂" target="rt|9|Kanto" />
+      <edge id="229" source="[32]Nidoran♂" target="rt|10|Kanto" />
+      <edge id="230" source="[32]Nidoran♂" target="rt|2|Kanto" />
+      <edge id="231" source="[32]Nidoran♂" target="safari|Kanto" />
+      <edge id="232" source="[33]Nidorino" target="rt|9|Kanto" />
+      <edge id="233" source="[33]Nidorino" target="safari|Kanto" />
+      <edge id="234" source="[33]Nidorino" target="rt|23|Kanto" />
+      <edge id="235" source="[35]Clefairy" target="Mt. Moon" />
+      <edge id="236" source="[37]Vulpix" target="Celadon City" />
+      <edge id="237" source="[37]Vulpix" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="238" source="[39]Jigglypuff" target="rt|6|Kanto" />
+      <edge id="239" source="[39]Jigglypuff" target="rt|5|Kanto" />
+      <edge id="240" source="[39]Jigglypuff" target="rt|7|Kanto" />
+      <edge id="241" source="[39]Jigglypuff" target="rt|8|Kanto" />
+      <edge id="242" source="[40]Wigglytuff" target="Celadon City" />
+      <edge id="243" source="[40]Wigglytuff" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="244" source="[41]Zubat" target="ka|Victory Road" />
+      <edge id="245" source="[41]Zubat" target="Seafoam Islands" />
+      <edge id="246" source="[41]Zubat" target="Mt. Moon" />
+      <edge id="247" source="[41]Zubat" target="Rock Tunnel" />
+      <edge id="248" source="[42]Golbat" target="ka|Victory Road" />
+      <edge id="249" source="[42]Golbat" target="Seafoam Islands" />
+      <edge id="250" source="[42]Golbat" target="Cerulean Cave" />
+      <edge id="251" source="[43]Oddish" target="rt|24|Kanto" />
+      <edge id="252" source="[43]Oddish" target="rt|15|Kanto" />
+      <edge id="253" source="[43]Oddish" target="rt|12|Kanto" />
+      <edge id="254" source="[43]Oddish" target="rt|25|Kanto" />
+      <edge id="255" source="[43]Oddish" target="rt|14|Kanto" />
+      <edge id="256" source="[43]Oddish" target="rt|13|Kanto" />
+      <edge id="257" source="[44]Gloom" target="rt|15|Kanto" />
+      <edge id="258" source="[44]Gloom" target="rt|12|Kanto" />
+      <edge id="259" source="[44]Gloom" target="rt|14|Kanto" />
+      <edge id="260" source="[44]Gloom" target="Cerulean Cave" />
+      <edge id="261" source="[44]Gloom" target="rt|13|Kanto" />
+      <edge id="262" source="[46]Paras" target="safari|Kanto" />
+      <edge id="263" source="[46]Paras" target="Mt. Moon" />
+      <edge id="264" source="[47]Parasect" target="safari|Kanto" />
+      <edge id="265" source="[47]Parasect" target="Cerulean Cave" />
+      <edge id="266" source="[47]Parasect" target="In-game trade#Yellow|Trade" />
+      <edge id="267" source="[47]Parasect" target="rt|18|Kanto" />
+      <edge id="268" source="[48]Venonat" target="rt|24|Kanto" />
+      <edge id="269" source="[48]Venonat" target="rt|15|Kanto" />
+      <edge id="270" source="[48]Venonat" target="rt|25|Kanto" />
+      <edge id="271" source="[48]Venonat" target="rt|14|Kanto" />
+      <edge id="272" source="[49]Venomoth" target="rt|15|Kanto" />
+      <edge id="273" source="[49]Venomoth" target="Cerulean Cave" />
+      <edge id="274" source="[49]Venomoth" target="rt|14|Kanto" />
+      <edge id="275" source="[4]Charmander" target="Damian|a Trainer" />
+      <edge id="276" source="[4]Charmander" target="Special Event" />
+      <edge id="277" source="[4]Charmander" target="rt|24|Kanto" />
+      <edge id="278" source="[50]Diglett" target="Diglett\\'s Cave" />
+      <edge id="279" source="[51]Dugtrio" target="rt|11|Kanto" />
+      <edge id="280" source="[51]Dugtrio" target="Diglett\\'s Cave" />
+      <edge id="281" source="[51]Dugtrio" target="In-game trade#Yellow|Trade" />
+      <edge id="282" source="[54]Psyduck" target="Surfing" />
+      <edge id="283" source="[54]Psyduck" target="rt|6|Kanto" />
+      <edge id="284" source="[55]Golduck" target="Surfing" />
+      <edge id="285" source="[55]Golduck" target="rt|6|Kanto" />
+      <edge id="286" source="[56]Mankey" target="rt|22|Kanto" />
+      <edge id="287" source="[56]Mankey" target="rt|3|Kanto" />
+      <edge id="288" source="[56]Mankey" target="rt|4|Kanto" />
+      <edge id="289" source="[56]Mankey" target="rt|23|Kanto" />
+      <edge id="290" source="[57]Primeape" target="rt|23|Kanto" />
+      <edge id="291" source="[58]Growlithe" target="ka|Pokémon Mansion" />
+      <edge id="292" source="[60]Poliwag" target="rt|22|Kanto" />
+      <edge id="293" source="[60]Poliwag" target="rt|10|Kanto" />
+      <edge id="294" source="[60]Poliwag" target="Vermilion City" />
+      <edge id="295" source="[60]Poliwag" target="rt|17|Kanto" />
+      <edge id="296" source="[60]Poliwag" target="Cerulean Gym" />
+      <edge id="297" source="[60]Poliwag" target="rt|11|Kanto" />
+      <edge id="298" source="[60]Poliwag" target="rt|21|Kanto" />
+      <edge id="299" source="[60]Poliwag" target="rt|18|Kanto" />
+      <edge id="300" source="[60]Poliwag" target="Seafoam Islands" />
+      <edge id="301" source="[60]Poliwag" target="Viridian City" />
+      <edge id="302" source="[60]Poliwag" target="rt|12|Kanto" />
+      <edge id="303" source="[60]Poliwag" target="Super Rod" />
+      <edge id="304" source="[60]Poliwag" target="rt|23|Kanto" />
+      <edge id="305" source="[60]Poliwag" target="rt|13|Kanto" />
+      <edge id="306" source="[60]Poliwag" target="Celadon City" />
+      <edge id="307" source="[60]Poliwag" target="rt|20|Kanto" />
+      <edge id="308" source="[60]Poliwag" target="rt|24|Kanto" />
+      <edge id="309" source="[60]Poliwag" target="Indigo Plateau" />
+      <edge id="310" source="[60]Poliwag" target="rt|25|Kanto" />
+      <edge id="311" source="[60]Poliwag" target="Cerulean City" />
+      <edge id="312" source="[60]Poliwag" target="Cinnabar Island" />
+      <edge id="313" source="[60]Poliwag" target="Pallet Town" />
+      <edge id="314" source="[60]Poliwag" target="rt|6|Kanto" />
+      <edge id="315" source="[60]Poliwag" target="Fuchsia City" />
+      <edge id="316" source="[60]Poliwag" target="rt|19|Kanto" />
+      <edge id="317" source="[60]Poliwag" target="Good Rod" />
+      <edge id="318" source="[60]Poliwag" target="safari|Kanto" />
+      <edge id="319" source="[60]Poliwag" target="Cerulean Cave" />
+      <edge id="320" source="[61]Poliwhirl" target="rt|22|Kanto" />
+      <edge id="321" source="[61]Poliwhirl" target="Super Rod" />
+      <edge id="322" source="[61]Poliwhirl" target="rt|23|Kanto" />
+      <edge id="323" source="[63]Abra" target="Celadon City" />
+      <edge id="324" source="[63]Abra" target="rt|6|Kanto" />
+      <edge id="325" source="[63]Abra" target="rt|5|Kanto" />
+      <edge id="326" source="[63]Abra" target="rt|7|Kanto" />
+      <edge id="327" source="[63]Abra" target="rt|8|Kanto" />
+      <edge id="328" source="[63]Abra" target="Celadon Game Corner|Rocket Game Corner" />
+      <edge id="329" source="[64]Kadabra" target="rt|8|Kanto" />
+      <edge id="330" source="[66]Machop" target="rt|10|Kanto" />
+      <edge id="331" source="[66]Machop" target="Rock Tunnel" />
+      <edge id="332" source="[67]Machoke" target="ka|Victory Road" />
+      <edge id="333" source="[67]Machoke" target="tt|*|immediately evolves into Machamp, but Pokédex data is entered" />
+      <edge id="334" source="[67]Machoke" target="In-game trade#Yellow|Trade" />
+      <edge id="335" source="[67]Machoke" target="Underground Path (Kanto Routes 5-6)" />
+      <edge id="336" source="[68]Machamp" target="In-game trade#Yellow|Trade" />
+      <edge id="337" source="[68]Machamp" target="Underground Path (Kanto Routes 5-6)" />
+      <edge id="338" source="[69]Bellsprout" target="rt|24|Kanto" />
+      <edge id="339" source="[69]Bellsprout" target="rt|15|Kanto" />
+      <edge id="340" source="[69]Bellsprout" target="rt|12|Kanto" />
+      <edge id="341" source="[69]Bellsprout" target="rt|25|Kanto" />
+      <edge id="342" source="[69]Bellsprout" target="rt|14|Kanto" />
+      <edge id="343" source="[69]Bellsprout" target="rt|13|Kanto" />
+      <edge id="344" source="[70]Weepinbell" target="rt|15|Kanto" />
+      <edge id="345" source="[70]Weepinbell" target="rt|12|Kanto" />
+      <edge id="346" source="[70]Weepinbell" target="rt|14|Kanto" />
+      <edge id="347" source="[70]Weepinbell" target="Cerulean Cave" />
+      <edge id="348" source="[70]Weepinbell" target="rt|13|Kanto" />
+      <edge id="349" source="[72]Tentacool" target="rt|11|Kanto" />
+      <edge id="350" source="[72]Tentacool" target="rt|21|Kanto" />
+      <edge id="351" source="[72]Tentacool" target="rt|18|Kanto" />
+      <edge id="352" source="[72]Tentacool" target="Vermilion City" />
+      <edge id="353" source="[72]Tentacool" target="rt|17|Kanto" />
+      <edge id="354" source="[72]Tentacool" target="Seafoam Islands" />
+      <edge id="355" source="[72]Tentacool" target="rt|20|Kanto" />
+      <edge id="356" source="[72]Tentacool" target="rt|19|Kanto" />
+      <edge id="357" source="[72]Tentacool" target="Fishing#In the games|Super Rod" />
+      <edge id="358" source="[72]Tentacool" target="Surfing" />
+      <edge id="359" source="[72]Tentacool" target="Cinnabar Island" />
+      <edge id="360" source="[72]Tentacool" target="Pallet Town" />
+      <edge id="361" source="[72]Tentacool" target="rt|13|Kanto" />
+      <edge id="362" source="[73]Tentacruel" target="rt|21|Kanto" />
+      <edge id="363" source="[73]Tentacruel" target="Fishing#In the games|Super Rod" />
+      <edge id="364" source="[73]Tentacruel" target="rt|20|Kanto" />
+      <edge id="365" source="[73]Tentacruel" target="rt|19|Kanto" />
+      <edge id="366" source="[74]Geodude" target="ka|Victory Road" />
+      <edge id="367" source="[74]Geodude" target="Mt. Moon" />
+      <edge id="368" source="[74]Geodude" target="Rock Tunnel" />
+      <edge id="369" source="[75]Graveler" target="ka|Victory Road" />
+      <edge id="370" source="[75]Graveler" target="Cerulean Cave" />
+      <edge id="371" source="[77]Ponyta" target="rt|17|Kanto" />
+      <edge id="372" source="[79]Slowpoke" target="Seafoam Islands" />
+      <edge id="373" source="[79]Slowpoke" target="Surfing" />
+      <edge id="374" source="[79]Slowpoke" target="rt|12|Kanto" />
+      <edge id="375" source="[79]Slowpoke" target="rt|13|Kanto" />
+      <edge id="376" source="[7]Squirtle" target="Badge|Thunder" />
+      <edge id="377" source="[7]Squirtle" target="Vermilion City" />
+      <edge id="378" source="[7]Squirtle" target="Special Event" />
+      <edge id="379" source="[7]Squirtle" target="Officer Jenny" />
+      <edge id="380" source="[80]Slowbro" target="Seafoam Islands" />
+      <edge id="381" source="[80]Slowbro" target="Surfing" />
+      <edge id="382" source="[80]Slowbro" target="rt|12|Kanto" />
+      <edge id="383" source="[80]Slowbro" target="rt|13|Kanto" />
+      <edge id="384" source="[81]Magnemite" target="FB|Kanto|Power Plant" />
+      <edge id="385" source="[81]Magnemite" target="rt|10|Kanto" />
+      <edge id="386" source="[82]Magneton" target="FB|Kanto|Power Plant" />
+      <edge id="387" source="[83]Farfetch'd" target="rt|12|Kanto" />
+      <edge id="388" source="[83]Farfetch'd" target="rt|13|Kanto" />
+      <edge id="389" source="[84]Doduo" target="rt|18|Kanto" />
+      <edge id="390" source="[84]Doduo" target="rt|16|Kanto" />
+      <edge id="391" source="[84]Doduo" target="rt|17|Kanto" />
+      <edge id="392" source="[85]Dodrio" target="rt|17|Kanto" />
+      <edge id="393" source="[86]Seel" target="Seafoam Islands" />
+      <edge id="394" source="[87]Dewgong" target="Seafoam Islands" />
+      <edge id="395" source="[87]Dewgong" target="In-game trade#Yellow|Trade" />
+      <edge id="396" source="[87]Dewgong" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="397" source="[87]Dewgong" target="Cinnabar Island" />
+      <edge id="398" source="[88]Grimer" target="FB|Kanto|Power Plant" />
+      <edge id="399" source="[88]Grimer" target="ka|Pokémon Mansion" />
+      <edge id="400" source="[89]Muk" target="In-game trade#Yellow|Trade" />
+      <edge id="401" source="[89]Muk" target="FB|Kanto|Power Plant" />
+      <edge id="402" source="[89]Muk" target="ka|Pokémon Mansion" />
+      <edge id="403" source="[89]Muk" target="Cinnabar Island" />
+      <edge id="404" source="[89]Muk" target="Cinnabar Lab|Pokémon Lab" />
+      <edge id="405" source="[90]Shellder" target="rt|18|Kanto" />
+      <edge id="406" source="[90]Shellder" target="Vermilion City" />
+      <edge id="407" source="[90]Shellder" target="rt|17|Kanto" />
+      <edge id="408" source="[90]Shellder" target="Super Rod" />
+      <edge id="409" source="[92]Gastly" target="Pokémon Tower" />
+      <edge id="410" source="[93]Haunter" target="Pokémon Tower" />
+      <edge id="411" source="[95]Onix" target="ka|Victory Road" />
+      <edge id="412" source="[95]Onix" target="Rock Tunnel" />
+      <edge id="413" source="[96]Drowzee" target="rt|11|Kanto" />
+      <edge id="414" source="[98]Krabby" target="rt|10|Kanto" />
+      <edge id="415" source="[98]Krabby" target="Seafoam Islands" />
+      <edge id="416" source="[98]Krabby" target="rt|25|Kanto" />
+      <edge id="417" source="[98]Krabby" target="Super Rod" />
+      <edge id="418" source="[99]Kingler" target="rt|10|Kanto" />
+      <edge id="419" source="[99]Kingler" target="Seafoam Islands" />
+      <edge id="420" source="[99]Kingler" target="rt|25|Kanto" />
+      <edge id="421" source="[99]Kingler" target="Super Rod" />
+    </edges>
+  </graph>
+</gexf>
