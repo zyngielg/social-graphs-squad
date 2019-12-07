@@ -7,6 +7,8 @@ from pokemon_episodes_graph import generate_generation_graph, get_generations_di
 from dash.dependencies import Input, Output
 from textwrap import dedent as d
 import json
+import re
+import pandas as pd
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
@@ -16,6 +18,8 @@ styles = {
         'overflowX': 'scroll'
     }
 }
+
+df = pd.read_csv("../pokemon_data.csv")
 
 def random_graph(no_nodes = 200, edge_percent = 0.125):
     return nx.random_geometric_graph(no_nodes, edge_percent)
@@ -115,6 +119,9 @@ def get_graph_figure(gen_number):
 
     return G, fig
 
+
+
+
 seasons = get_generations_dict()
 graphs = []
 figures = []
@@ -161,7 +168,9 @@ app.layout = html.Div([
             Click on points in the graph.
         """)),
         html.Pre(id='click-data', style=styles['pre']),
+
     ], className='three columns'),
+    html.Img(id='image')
 ])
 
 @app.callback(
@@ -171,11 +180,43 @@ def update_figure(selected_season):
     return figures[selected_season-1]
 
 @app.callback(
+    Output('image', 'src'),
+    [Input('Graph', 'clickData')]
+)
+def display_img(clickData):
+    name = ""
+    if clickData is not None:
+        text = clickData["points"][0]["text"]
+        name = re.search(r"(?<=Name: )(.*)(?=<br>)", text)[0]
+    url = f"https://img.pokemondb.net/artwork/{name.lower()}.jpg"
+    return url
+
+
+@app.callback(
     Output('click-data', 'children'),
     [Input('Graph', 'clickData')])
 def display_click_data(clickData):
-    return json.dumps(clickData, indent=2)
+    result = ""
+    if clickData is not None:
+        text = clickData["points"][0]["text"]
+        name = re.search(r"(?<=Name: )(.*)(?=<br>)", text)[0]
+        sentiment = df[df["Pokémon"] == name]["Sentiment_stemmed"].values[0]
+        print(sentiment)
+        print(type(sentiment))
+        generation = df[df["Pokémon"] == name]["Generation"].values[0]
+        type = df[df["Pokémon"] == name]["Type"].values[0]
+
+        result = f"""Name: {name}
+Type: {type}
+Generation: {generation}
+Sentiment: {sentiment}
+        """
+
+        no_connections = re.search(r"(?<=connections: )(.*)", text)[0]
+    #return json.dumps(clickData, indent=2)
+    return result
 
 
 if __name__ == '__main__':
     app.run_server(debug=True)
+#pokemon_info[pokemon_info["Pokémon"]=="Bulbasaur"]
