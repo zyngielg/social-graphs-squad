@@ -2,7 +2,6 @@ import re
 import os
 import itertools
 import networkx as nx
-from IPython.display import clear_output
 import numpy as np
 import matplotlib.pyplot as plt
 

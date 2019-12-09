@@ -19,8 +19,8 @@ def create_edge_trace(G):
     a = []
     b = []
     for i, edge in enumerate(G.edges()):
-        x0, y0 = G.node[edge[0]]['pos']
-        x1, y1 = G.node[edge[1]]['pos']
+        x0, y0 = G.nodes[edge[0]]['pos']
+        x1, y1 = G.nodes[edge[1]]['pos']
         a.append(x0)
         a.append(x1)
         a.append(None)
@@ -55,7 +55,7 @@ def create_node_trace(G):
             ),
             line=dict(width=2)))
     for i, node in enumerate(G.nodes()):
-        x, y = G.node[node]['pos']
+        x, y = G.nodes[node]['pos']
         node_trace['x'] += tuple([x])
         node_trace['y'] += tuple([y])
 
