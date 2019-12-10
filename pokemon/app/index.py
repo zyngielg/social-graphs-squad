@@ -9,7 +9,7 @@ from apps import home, pokemon_episode, pokemon_routes, sentiment_analysis
 navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Pokemon-episode graph", href="/pokemon_episode")),
-        dbc.NavItem(dbc.NavLink("Sentiment analysis", href="/apps/pokemon_routes")),
+        dbc.NavItem(dbc.NavLink("Pokemon Routes", href="/apps/pokemon_routes")),
         dbc.NavItem(dbc.NavLink("Sentiment analysis", href="/apps/sentiment_analysis"))
     ],
     brand="Pokemon graphs and analysis",

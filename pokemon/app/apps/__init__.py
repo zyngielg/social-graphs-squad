@@ -2,6 +2,7 @@
 import plotly.graph_objects as go
 import networkx as nx
 from pokemon_episodes_graph import generate_generation_graph, get_generations_dict
+from location_graph import generate_games_graph, get_game_dict, get_node_names
 import pandas as pd
 
 
@@ -111,6 +112,37 @@ for i in range(len(seasons)):
     g, f = get_graph_figure(i + 1)
     graphs.append(g)
     figures.append(f)
+
+
+def route_get_graph_figure(game):
+    games = get_game_dict()
+    G, color_map = generate_games_graph(games[game])
+    positions = nx.random_layout(G)
+    nx.set_node_attributes(G, positions, 'pos')
+    node_trace = create_node_trace(G)
+    edge_trace = create_edge_trace(G)
+    node_trace['marker']['color'] = color_map
+    routes_add_color_and_hover_text(G, node_trace)
+    fig = create_figure(node_trace, edge_trace)
+
+    return G, fig
+
+def routes_add_color_and_hover_text(G, node_trace):
+    # add color to node points
+    node_trace['text'] = get_node_names(G)
+    node_adjacencies = []
+    for node, adjacencies in enumerate(G.adjacency()):
+        node_adjacencies.append(5 * len(adjacencies[1]))
+    node_trace["marker"]['size'] = node_adjacencies
+    node_trace["marker"]['colorbar'] = None
+
+games = get_game_dict()
+route_graphs = []
+route_figures = []
+for i in range(len(games)):
+    g, f = route_get_graph_figure(i + 1)
+    route_graphs.append(g)
+    route_figures.append(f)
 
 styles = {
     'pre': {
