@@ -9,8 +9,8 @@ from apps import home, pokemon_episode, pokemon_routes, sentiment_analysis
 navbar = dbc.NavbarSimple(
     children=[
         dbc.NavItem(dbc.NavLink("Pokemon-episode graph", href="/pokemon_episode")),
-        dbc.NavItem(dbc.NavLink("Sentiment analysis", href="/apps/pokemon_routes")),
-        dbc.NavItem(dbc.NavLink("Sentiment analysis", href="/apps/sentiment_analysis"))
+        dbc.NavItem(dbc.NavLink("Pokemon routes", href="/pokemon_routes")),
+        dbc.NavItem(dbc.NavLink("Sentiment analysis", href="/sentiment_analysis"))
     ],
     brand="Pokemon graphs and analysis",
     brand_href="/",
@@ -32,9 +32,10 @@ def display_page(pathname):
         return home.layout
     if pathname == '/pokemon_episode':
         return pokemon_episode.layout
-    elif pathname == '/apps/pokemon_routes':
+    elif pathname == '/pokemon_routes':
         return pokemon_routes.layout
-    elif pathname == '/apps/sentiment_analysis':
+    elif pathname == '/sentiment_analysis':
+        print(pathname)
         return sentiment_analysis.layout
     else:
         return '404'
